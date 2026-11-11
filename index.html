@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#f7f5ff" />
+  <meta name="theme-color" content="#f8f3e9" />
   <meta name="description" content="Planner ide konten yapping daily life, this or that, dan rating makanan-minuman dengan kalender dan jadwal posting setiap 15 menit." />
   <title>YapPlan — Ide Konten & Kalender Posting</title>
   <link rel="stylesheet" href="style.css" />
@@ -37,7 +37,7 @@
         <section class="panel generator-panel" id="generator"><div class="panel-title"><div><h2>Generator ide <span class="small-emoji">⚡</span></h2><p>Atur kontenmu dalam sekali klik</p></div><span class="pill">FREE ✨</span></div>
           <form id="generatorForm">
             <label for="selectedDate">Tanggal posting</label><input type="date" id="selectedDate" required />
-            <label>Kategori konten</label><div class="check-group"><label class="check-card"><input type="checkbox" name="category" value="daily" checked /><span class="chip purple-chip">☁ Daily life</span></label><label class="check-card"><input type="checkbox" name="category" value="either" checked /><span class="chip pink-chip">⇄ This or That</span></label><label class="check-card"><input type="checkbox" name="category" value="rating" checked /><span class="chip orange-chip">★ Rating Time</span></label></div>
+            <label>Kategori konten</label><div class="check-group"><label class="check-card"><input type="checkbox" name="category" value="daily" checked /><span class="chip purple-chip">☁ Daily life (keseharian)</span></label><label class="check-card"><input type="checkbox" name="category" value="either" checked /><span class="chip pink-chip">⇄ This or That</span></label><label class="check-card"><input type="checkbox" name="category" value="rating" checked /><span class="chip orange-chip">★ Rating Time</span></label></div>
             <div class="row-inputs"><div><label for="startTime">Jam mulai</label><input type="time" id="startTime" value="09:00" required step="900" /></div><div><label for="ideaCount">Jumlah posting / hari</label><input type="number" id="ideaCount" value="8" min="1" max="96" required /></div></div>
             <div class="row-inputs"><div><label for="dayCount">Buat untuk</label><select id="dayCount"><option value="1">1 hari</option><option value="7">7 hari berturut-turut</option><option value="30">30 hari berturut-turut</option></select></div><div><label for="interval">Jeda posting</label><select id="interval"><option value="15" selected>15 menit</option></select></div></div>
             <div class="hint"><span>✦</span> Jadwal dibuat setiap 15 menit, tanpa tabrakan dengan posting yang sudah ada.</div><button class="btn btn-primary" type="submit" id="generateBtn">✧ Generate ide & jadwal <span>↗</span></button>
@@ -47,7 +47,7 @@
 
       <section class="panel schedule-panel" id="jadwal"><div class="schedule-top"><div><div class="eyebrow">CONTENT QUEUE</div><h2>Jadwal posting <span id="dateSubtitle"></span></h2><p>Setiap ide dilengkapi caption pembuka dan ajakan interaksi.</p></div><div class="schedule-actions"><button type="button" id="copyAllBtn" class="btn btn-soft">⧉ Salin semua</button><button type="button" id="deleteDayBtn" class="btn btn-danger-soft">⌫ Hapus hari ini</button></div></div><div id="scheduleList" class="schedule-list"></div></section>
       <section class="footer-actions"><p>🔒 Data tersimpan lokal di browser ini. <b>Backup</b> supaya tidak hilang saat cache dibersihkan atau ganti perangkat.</p><div><button class="link-button" id="backupBtn">↓ Backup JSON</button><label class="link-button upload-label" for="restoreFile">↑ Pulihkan backup</label><input id="restoreFile" type="file" accept="application/json,.json" hidden /><button class="link-button danger-link" id="resetHistoryBtn">Reset riwayat ide</button></div></section>
-      <footer>Made with 💜 for everyday yapper · YAPPLAN</footer>
+      <footer>Made with ☕ for everyday yapper · YAPPLAN</footer>
     </main>
   </div>
   <div id="toast" role="status" aria-live="polite"></div>

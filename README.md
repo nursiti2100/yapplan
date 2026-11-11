@@ -26,3 +26,10 @@ Ekstrak ZIP dan buka file **index.html** di Google Chrome. Jika tersedia interne
 
 ## Privasi dan keterbatasan
 Tidak memakai backend atau integrasi ke platform media sosial, jadi **jadwal adalah perencanaan, bukan auto-posting**. Unik berarti kombinasi ide yang pernah dihasilkan tidak diulang; setelah seluruh stok kombinasi habis, generator akan berhenti alih-alih membuat duplikat. Ide memiliki variasi sudut pembahasan yang dapat mengangkat topik sama dengan pertanyaan dan perspektif berbeda. Konten tersimpan per browser, bukan di GitHub.
+
+
+## Cream Edition (revisi)
+- Palet warna krem, cokelat hangat, dan aksen peach.
+- Topik Daily Life difokuskan pada kejadian dan rutinitas keseharian saja (bukan opini atau motivasi abstrak).
+- Riwayat posting dari versi lama tetap tersimpan di browser yang sama, selama domain dan penyimpanan browser tidak berubah.
+- Saat update GitHub, unggah dan timpa `index.html`, `style.css`, `app.js`, serta `README.md` pada root repository yang sama.
